@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git url:'https://github.com/Santhosh2010-ramesh/Dockerized-CI-CD-pipeline-using-Jenkins-and-Kubernetes.git',branch:'main  // Replace with your repo URL
+                git url:'https://github.com/Santhosh2010-ramesh/Dockerized-CI-CD-pipeline-using-Jenkins-and-Kubernetes.git',branch:'main' // Replace with your repo URL
             }
         }
         stage('Build Docker Image') {
