@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: user/myapp:latest  # Replace with your Docker image name
+        image: santhosh2010/myapp:latest  # Replace with your Docker image name
         ports:
         - containerPort: 80
